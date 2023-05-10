@@ -1,0 +1,27 @@
+.Product-div,
+.CartItem-div {
+  display: flex;
+  gap: 50px;
+  background-color: gainsboro;
+}
+.ProductContainer-div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.Cart-div button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 20px;
+}
+.Cartpage-div {
+  background-color: rgba(30, 0, 255, 0.588);
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+}
